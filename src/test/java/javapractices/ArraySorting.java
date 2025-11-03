@@ -5,6 +5,7 @@ public class ArraySorting {
 	public static void main(String[] args) {
 		
 		// create an array
+		// aaray sorting logic
 
 		int array[] = { 10, 20, 4, 3, 100, 40, 50 };
 
