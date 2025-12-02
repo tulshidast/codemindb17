@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<exclude name="xyz"></exclude>
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="seleniumpractices.ListnerForReport"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="seleniumpractices.TestNgGroups" />
+			<class name="seleniumpractices.ReportingAndLogging" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
