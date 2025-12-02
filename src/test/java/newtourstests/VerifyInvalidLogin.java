@@ -9,7 +9,7 @@ import framework.pages.LoginPage;
 
 public class VerifyInvalidLogin extends BaseTest {
 
-	@Test
+	@Test(priority = 0)
 	public void verifyInvalidLogin() {
 
 		LoginPage loginPage = new LoginPage(driver);
